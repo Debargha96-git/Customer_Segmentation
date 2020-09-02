@@ -1,2 +1,2 @@
-ML project for Customer Segmentation
+ML project for Customer Segmentation,
 Clustering Approach
