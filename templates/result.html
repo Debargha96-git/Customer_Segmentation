@@ -22,18 +22,9 @@
 
 		<!-- Result -->
 		<div class="results">
-			{{ case prediction.value }}
-			   {{ when prediction==0 }}
-			      <h1>Prediction: <span class='danger'>Customer is of cluster 1.</span></h1>
-			   {{ when prediction==1 }}
-			      <h1>Prediction: <span class='danger'>Customer is of cluster 2.</span></h1>
-               {{ when prediction==2 }}
-			      <h1>Prediction: <span class='danger'>Customer is of cluster 3.</span></h1>
-			   {{ when prediction==3 }}
-			      <h1>Prediction: <span class='danger'>Customer is of cluster 4.</span></h1>
-			   {{ else }}
-			      <h1>Prediction: <span class='danger'>Customer is of cluster 5.</span></h1>
-			   {{ endcase }}
+			The customer comes under cluster number : {{ prediction }}
+
+
 		</div>
 
 
